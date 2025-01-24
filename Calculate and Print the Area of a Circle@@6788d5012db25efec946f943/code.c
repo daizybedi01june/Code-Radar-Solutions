@@ -3,6 +3,6 @@
 int main(){
     float a;
     scanf("%f",&a);
-    printf("%f",3.14*a*a);
+    printf("%.2f",3.14*a*a);
     return 0;
 }
