@@ -7,5 +7,5 @@ scanf("%m",&m);
 if(m>n){
 printf("%d",m);}
 else{
-printf("%d",n)};
+printf("%d",n);}
 return 0;}
