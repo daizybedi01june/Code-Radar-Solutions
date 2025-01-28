@@ -2,8 +2,8 @@
 
 int main(){
 int n,m;
-scanf("%n",&n);
-scanf("%m",&m);
+scanf("%d",&n);
+scanf("%d",&m);
 if(m>n){
 printf("%d",m);}
 else{
