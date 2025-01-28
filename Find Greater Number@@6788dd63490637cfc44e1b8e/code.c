@@ -8,4 +8,4 @@ if(m>n){
 printf("%d",m);}
 else{
 printf("%d",n);}
-return 0;}
+}
