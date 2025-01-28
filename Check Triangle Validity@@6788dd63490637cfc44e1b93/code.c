@@ -6,7 +6,7 @@ scanf("%d",&m);
 scanf("%d",&n);
 scanf("%d",&o);
 if (m+n>o)
-printf("valid");
+printf("Valid");
 else
 printf("Invalid");
 return 0;}
