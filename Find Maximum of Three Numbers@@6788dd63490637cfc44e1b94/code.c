@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
 int m,n,o;
 scanf("%d",&m);
@@ -11,4 +10,4 @@ if (n>m && n>o)
 printf("%d",n);
 if (o>m && o>n)
 printf("%d",o);
-retrun 0;}
+return 0;}
