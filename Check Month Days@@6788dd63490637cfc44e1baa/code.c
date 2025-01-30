@@ -26,7 +26,7 @@ int main(){
         break;
         case 11: printf("November");
         break;
-        case 12: print("December");
+        case 12: printf("December");
         break;
     }
     return 0;
