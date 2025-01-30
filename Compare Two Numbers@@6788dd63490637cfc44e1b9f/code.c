@@ -5,8 +5,8 @@ int main(){
     scanf("%d %d",&n,&m);
     if (n==m)
     printf("Equal");
-    if (n>m)
+    else if (n>m)
     printf("First");
-    if (m>n)
+    else (m>n)
     print("Second");
 }
