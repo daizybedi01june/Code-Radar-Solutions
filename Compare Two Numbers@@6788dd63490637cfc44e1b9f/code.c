@@ -8,5 +8,5 @@ int main(){
     else if (n>m)
     printf("First");
     else (m>n)
-    print("Second");
+    printf("Second");
 }
