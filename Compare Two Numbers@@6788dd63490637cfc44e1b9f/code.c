@@ -9,4 +9,5 @@ int main(){
     printf("First");
     else (m>n)
     printf("Second");
+    return 0;
 }
