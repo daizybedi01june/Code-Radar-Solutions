@@ -10,7 +10,7 @@ int main(){
     else if (n>m){
     printf("First");
     }
-    else (m>n){
+    else{
     printf("Second");
     }
     return 0;
