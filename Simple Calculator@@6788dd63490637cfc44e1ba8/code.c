@@ -6,13 +6,13 @@ int main(){
     scanf("%f\n",&m);
     scanf("%f\n",&n);
     scanf("%c\n",&c);
-    if (c=='1')
+    if (c=='+')
     printf("%.0f",m+n);
-    else if (c=='2')
+    else if (c=='-')
     printf("%.0f",m-n);
-    else if (c=='3')
+    else if (c=='*')
     printf("%.0f",m*n);
-    else if (c=='4')
+    else if (c=='/')
     printf("%.0f",m/n);
     else 
     printf("error");
