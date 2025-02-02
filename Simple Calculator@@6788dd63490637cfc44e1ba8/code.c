@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    int m,n;
+    double m,n;
     char c;
-    scanf("%d %d",&m,&n);
+    scanf("%lf %lf",&m,&n);
     scanf("%c",&c);
     
     switch(c){
-        case '+': printf("%d",n+m);
+        case '+': printf("%.2lf",n+m);
         break;
-        case '-': printf("%d",m-n);
+        case '-': printf("%.2lf",m-n);
         break;
-        case '*': printf("%d",m*n);
+        case '*': printf("%.2lf",m*n);
         break;
-        case '/': printf("%d",m/n);
+        case '/': printf("%.2lf",m/n);
         break;
         default: printf("error");
     }
