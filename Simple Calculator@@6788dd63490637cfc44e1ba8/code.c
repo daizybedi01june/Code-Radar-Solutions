@@ -2,11 +2,11 @@
 
 int main(){
     double m,n;
-    char x[100];
+    char c[100];
     scanf("%lf",&m);
     scanf("%lf",&n);
-    scanf("%c",&x);
-    switch(x){
+    scanf("%c",&c);
+    switch(c){
         case '+': printf("%.2lf",n+m);
         break;
         case '-': printf("%.2lf",m-n);
