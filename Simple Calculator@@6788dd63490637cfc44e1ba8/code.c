@@ -2,7 +2,7 @@
 
 int main(){
     float m,n;
-    char c;
+    char c[100];
     scanf("%f",&m);
     scanf("%f",&n);
     scanf("%c",&c);
