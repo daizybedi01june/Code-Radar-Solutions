@@ -2,10 +2,10 @@
 
 int main(){
     float m,n;
-    char c[100];
-    scanf("%f",&m);
-    scanf("%f",&n);
-    scanf("%c",&c);
+    char c;
+    scanf("%f\n",&m);
+    scanf("%f\n",&n);
+    scanf("%c\n",&c);
     if (c=='+')
     printf("%f",m+n);
     else if (c=='-')
