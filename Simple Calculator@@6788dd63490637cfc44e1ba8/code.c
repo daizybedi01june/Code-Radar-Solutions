@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    float m,n;
+    int m,n;
     char c;
-    scanf("%f",&m);
-    scanf("%f",&n);
+    scanf("%d",&m);
+    scanf("%d",&n);
     scanf("%c",&c);
     switch(c){
-        case '+': printf("%.2f",n+m);
+        case '+': printf("%d",n+m);
         break;
-        case '-': printf("%.2f",m-n);
+        case '-': printf("%d",m-n);
         break;
-        case '*': printf("%.2f",m*n);
+        case '*': printf("%d",m*n);
         break;
-        case '/': printf("%.2f",m/n);
+        case '/': printf("%d",m/n);
         break;
     }
 
