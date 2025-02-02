@@ -7,13 +7,13 @@ int main(){
     scanf("%lf",&n);
     scanf("%c",&c);
     switch(c){
-        case '+': printf("%.2lf",n+m);
+        case '+': printf("%.2lf\n",n+m);
         break;
-        case '-': printf("%.2lf",m-n);
+        case '-': printf("%.2lf\n",m-n);
         break;
-        case '*': printf("%.2lf",m*n);
+        case '*': printf("%.2lf\n",m*n);
         break;
-        case '/': printf("%.2lf",m/n);
+        case '/': printf("%.2lf\n",m/n);
         break;
         default: printf("error");
     }
