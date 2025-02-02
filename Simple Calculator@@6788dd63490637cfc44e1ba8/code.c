@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    float m,n;
+    int m,n;
     char c;
-    scanf("%f\n",&m);
-    scanf("%f\n",&n);
+    scanf("%d\n",&m);
+    scanf("%d\n",&n);
     scanf("%c\n",&c);
     if (c=='+')
-    printf("%f",m+n);
+    printf("%d",m+n);
     else if (c=='-')
-    printf("%f",m-n);
+    printf("%d",m-n);
     else if (c=='*')
-    printf("%f",m*n);
+    printf("%d",m*n);
     else if (c=='/')
-    printf("%f",m/n);
+    printf("%d",m/n);
     else
     printf("error");
 }
