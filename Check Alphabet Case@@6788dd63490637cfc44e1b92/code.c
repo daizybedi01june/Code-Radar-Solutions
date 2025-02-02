@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(
-    char s;
+    char s[100];
     scanf("%c",&s);
     if (s=='A'){
         printf("Uppercase");
