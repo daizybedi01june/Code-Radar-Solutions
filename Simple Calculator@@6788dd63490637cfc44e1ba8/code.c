@@ -12,10 +12,11 @@ int main(){
     printf("%.0f",m-n);
     else if (c=='*')
     printf("%.0f",m*n);
-    else if (c=='/')
+    else if (c=='/' && m>0 && n>0)
     printf("%.0f",m/n);
-    else{
-        printf("error");
-    }
-    
+    else if (c=='/' && n==0)
+    printf("error");
+    else
+    printf("error");
+    return 0;
 }
