@@ -2,7 +2,7 @@
 
 int main(){
     double m,n;
-    char c;
+    char c[100];
     scanf("%lf",&m);
     scanf("%lf",&n);
     scanf("%c",&c);
