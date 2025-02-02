@@ -14,7 +14,8 @@ int main(){
     printf("%.0f",m*n);
     else if (c=='/')
     printf("%.0f",m/n);
-    else 
-    printf("error");
+    else{
+        printf('error');
+    }
     
 }
