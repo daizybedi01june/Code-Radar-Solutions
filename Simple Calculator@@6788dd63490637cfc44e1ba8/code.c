@@ -5,7 +5,7 @@ int main(){
     char c;
     scanf("%f\n",&m);
     scanf("%f\n",&n);
-    scanf("%f\n",&c);
+    scanf("%c\n",&c);
     if (c=='+')
     printf("%.0f",m+n);
     else if (c=='-')
