@@ -15,6 +15,6 @@ int main(){
     else if (c=='/')
     printf("%.0f",m/n);
     else 
-    printf("error")
+    printf("error");
     
 }
