@@ -7,5 +7,5 @@ int main(){
         count+=1;
         n= n<<1;
     }
-    printf("%d",&count);
+    printf("%d",count);
 }
