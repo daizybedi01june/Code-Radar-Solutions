@@ -4,7 +4,7 @@ int main(){
     int n;
     scanf("%d",&n);
     if (((n & (n-1))==0)){
-        printf("%d", log(n)+1);
+        printf("%lf", log2(n)+1);
     }
     else{
         printf("-1");
