@@ -10,8 +10,8 @@ void selectionSort(char arr[],int n){
         }
         if (min_pos!=i){
             char temp=arr[i];
-            arr[i]=arr[i+1];
-            arr[i+1]=temp;
+            arr[i]=arr[min_pos];
+            arr[min_pos]=temp;
         }
     }
 }
