@@ -3,7 +3,7 @@
 void selectionSort(char arr[],int n){
     for (int i=0;i<n-1;i++){
         char min_pos=i;
-        for (int j=i+1;j<n-i-1;j++){
+        for (int j=i+1;j<n;j++){
             if (arr[j]>arr[j+1]){
                 min_pos=j;
             }
