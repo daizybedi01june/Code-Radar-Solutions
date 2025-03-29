@@ -12,7 +12,7 @@ int kthSmallest(int arr[],int n,int k){
         }
     }
     if (k>n){
-        return -1
+        return -1;
     }
     else
     return arr[k-1];
