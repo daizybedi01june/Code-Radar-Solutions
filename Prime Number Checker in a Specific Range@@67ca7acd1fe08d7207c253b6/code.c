@@ -1,13 +1,22 @@
 #include <stdio.h>
 
 void printPrimesInRange(int a,int b){
-    int count,prime[100];
+    int flag,found;
     for (int i=a+1;i<b;i++){
-        for (int j=2;j<b;j++){
-            if (i%j!=0){
-                printf("%d",i);
-                count++;}
+        flag=1;
+        for (int j=2;j*j<=i;j++){
+            if (i%j==0){
+                break;
+                flag=0;
             }
         }
+        if (flag == 1 && i > 1) {
+            printf("%d ", i);
+            found = 1;
+        }
     }
+    if (!found) {
+        printf("No prime numbers in the range.");
+    }
+}
    
