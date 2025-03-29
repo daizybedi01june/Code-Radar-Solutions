@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void printPrimesinRange(int a,int b){
+void printPrimesInRange(int a,int b){
     int count,prime[100];
     for (int i=a+1;i<b;i++){
         for (int j=2;j<b;j++){
