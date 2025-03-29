@@ -6,8 +6,8 @@ void printPrimesInRange(int a,int b){
         flag=1;
         for (int j=2;j*j<=i;j++){
             if (i%j==0){
-                break;
                 flag=0;
+                break;
             }
         }
         if (flag == 1 && i > 1) {
