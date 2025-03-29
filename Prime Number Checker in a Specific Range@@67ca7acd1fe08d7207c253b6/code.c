@@ -6,16 +6,16 @@ void printPrimesinRange(int a,int b){
         for (int j=2;j<b;j++){
             if (i%j==0){
                 for (int a=0;a<b;a++){
-                scanf("%d",&arr[a])
+                scanf("%d",&prime[a])
                 count++;}
             }
         }
     }
     if (count>1){
         for (int a=0;a<b;a++){
-                scanf("%d",arr[a]);
+                scanf("%d",prime[a]);
     }
     else {
         printf("No prime numbers")
     }
-}
+}}
