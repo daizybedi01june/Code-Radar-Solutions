@@ -3,7 +3,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int m= (n+1)/2;
+    int c=2n;
+    int m= (c+1)/2;
     for (int i=1;i<=m;i++){
         for (int j=1;j<=m-i;j++){
             printf(" ");
