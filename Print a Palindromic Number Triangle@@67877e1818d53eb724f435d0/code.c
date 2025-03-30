@@ -12,7 +12,7 @@ int main(){
             printf("%d",i);
         }
         for (int k=1;k<=i-1;k++){
-            print("%d",a);
+            printf("%d",a);
             a--;
         }
     }
