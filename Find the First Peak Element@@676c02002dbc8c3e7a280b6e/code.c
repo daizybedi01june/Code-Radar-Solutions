@@ -5,8 +5,10 @@ void firstPeakElement(int n,int arr[]){
         if (((i==0) && arr[i]>arr[i+1]) || ((i==(n-1)) && arr[i]>arr[i-1]) || (i>0 && i<n-1 && arr[i]>arr[i-1] && arr[i]>arr[i+1])){
             printf("%d",arr[i]);
         }
+        else{
+            printf("-1\n");
+        }
     }
-    printf("-1\n");
     }
 
 int main(){
