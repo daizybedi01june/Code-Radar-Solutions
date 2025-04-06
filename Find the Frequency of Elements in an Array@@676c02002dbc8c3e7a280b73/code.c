@@ -11,14 +11,14 @@ int main(){
     for (int i=0;i<n;i++){
         if (temp[i]==0)
         continue;
+        int count=0;
         for (int j=0;j<n;j++){
-            if (temp[j]==0)
-            continue;
             if (arr[i]==arr[j]){
-                temp[i]++;
+                count++;
                 temp[j]=0;
             }
         }
+        temp[i]=count;
     }
     for (int i=0;i<n;i++){
         if (temp[i]!=0){
