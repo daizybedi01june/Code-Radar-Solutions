@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int arrrotate(int arr,int n,int k){
+int arrrotate(int arr[],int n,int k){
     int temp[n];
     k= k%n;
     for (int i=0;i<k;i++){
@@ -14,7 +14,7 @@ int arrrotate(int arr,int n,int k){
     }
 }
 
-int printArray(int arr,int n){
+int printArray(int arr[],int n){
     for (int i=0;i<n;i++){
         printf("%d";arr[i]);
     }
