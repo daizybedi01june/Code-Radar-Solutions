@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
     int n;
     scanf("%d",&n);
     int arr[n],brr[n];
