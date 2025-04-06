@@ -4,7 +4,7 @@ int arrrotate(int arr,int n,int k){
     int temp[n];
     k= k%n;
     for (int i=0;i<k;i++){
-        temp[i]=arr[i-k+n];
+        temp[i]=arr[n-k+i];
     }
     for (int i=k;i<n;i++){
         temp[i]=arr[i-k];
