@@ -30,5 +30,5 @@ int main(){
     int k;
     scanf("%d",&k);
     arrrotate(arr,n,k);
-    printArray(arr);
+    printArray(arr,n);
 }
