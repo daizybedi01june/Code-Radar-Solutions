@@ -7,7 +7,7 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int brr[1000000]={0};
+    int brr[n]={0};
     for (int i=0;i<n;i++){
         if (arr[i]>0){
             brr[arr[i]]=1;
