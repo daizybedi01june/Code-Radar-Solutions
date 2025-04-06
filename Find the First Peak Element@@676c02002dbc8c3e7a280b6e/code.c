@@ -2,9 +2,9 @@
 
 void firstPeakElement(int n,int arr[]){
     int count;
-    for (int i=0;i<n;i++){
+    for (int i=0;i<n-2;i++){
         if (arr[i+1]>arr[i] && arr[i+2]>arr[i+1]){
-            printf(arr[i+1]);
+            printf("%d\n",arr[i+1]);
             count++;
         }
         if (count>0){
