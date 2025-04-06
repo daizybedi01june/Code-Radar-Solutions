@@ -13,7 +13,7 @@ void main(){
     }
 
     for (int i=0;i<n;i++){
-        if (arr[i]>0 && arr[i] < n){
+        if (arr[i]>0 && arr[i] <= n+1){
             brr[arr[i]]=1;
         }
     }
