@@ -8,4 +8,9 @@ int fibonacciSeries(int n){
         return 1;
     }
     return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+
+    int i;
+    for(i = 0; i < 10; i++) {
+        printf("%d ", fibonacciSeries(i));
+    }
 }
