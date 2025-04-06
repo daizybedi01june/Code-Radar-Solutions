@@ -16,6 +16,7 @@ int main(){
     for (int i=1;i<n;i++){
         if (brr[i]==0){
             printf("%d",i);
+            return;
         }
     }
 }
