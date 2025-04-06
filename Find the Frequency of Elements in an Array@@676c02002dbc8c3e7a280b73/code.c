@@ -9,8 +9,8 @@ int main(){
         temp[i]=1;
     }
     for (int i=0;i<n;i++){
-        // if (temp[i]==0)
-        // continue;
+        if (temp[i]==0)
+        continue;
         int count=0;
         for (int j=0;j<n;j++){
             if (arr[i]==arr[j]){
