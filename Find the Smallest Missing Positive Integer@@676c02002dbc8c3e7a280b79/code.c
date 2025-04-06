@@ -3,11 +3,15 @@
 void main(){
     int n;
     scanf("%d",&n);
-    int arr[n],brr[n];
+    int arr[n],brr[n+2];
     for (int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[i]); 
+    }
+
+    for (int i=0;i<n+2;i++){
         brr[i]=0;
     }
+
     for (int i=0;i<n;i++){
         if (arr[i]>0 && arr[i] < n){
             brr[arr[i]]=1;
@@ -19,5 +23,5 @@ void main(){
             return;
         } 
     }
-    printf("%d\n", n);
+    // printf("%d\n", n);
 }
