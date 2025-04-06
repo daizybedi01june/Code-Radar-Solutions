@@ -13,7 +13,7 @@ void firstPeakElement(int n,int arr[]){
     }  
     if (count == 0) {
         printf("-1\n");
-}
+}}
 
 int main(){
     int n;
