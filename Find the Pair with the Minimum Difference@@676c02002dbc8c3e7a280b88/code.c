@@ -22,7 +22,7 @@ int main(){
     int num1=0,num2=0;
     for (int i=0;i<n-1;i++){
         int diff=abs(arr[i]-arr[i+1]);
-        if (mindiff<diff){
+        if (mindiff>diff){
             mindiff=diff;
             num1=arr[i];
             num2=arr[i+1];
