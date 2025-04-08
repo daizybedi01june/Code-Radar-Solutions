@@ -20,4 +20,4 @@ int main(){
     if (!found) {
         printf("No pairs found with sum %d\n", t);
     }
-}
+}}
