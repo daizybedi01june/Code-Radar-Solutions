@@ -23,6 +23,7 @@ int main(){
     }
     int max,element;
     max=temp[0];
+    element=arr[0];
     for (int i=0;i<n;i++){
     if (temp[i]!=0 && max<temp[i]){
         max=temp[i];
