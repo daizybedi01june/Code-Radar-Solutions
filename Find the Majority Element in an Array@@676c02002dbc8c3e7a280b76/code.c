@@ -26,8 +26,6 @@ int main(){
         if (temp[i]!=0 && temp[i]>max){
             printf("%d",arr[i]);
         }
-        else
-        printf("-1\n");
     }
     return 0;
 }
