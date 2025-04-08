@@ -17,7 +17,7 @@ int main(){
             found=1;
         }
     }
-    if (!printed) {
+    if (!found) {
         printf("No pairs found with sum %d\n", t);
     }
 }
