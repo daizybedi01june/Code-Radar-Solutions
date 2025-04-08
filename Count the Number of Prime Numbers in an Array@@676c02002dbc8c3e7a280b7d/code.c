@@ -20,15 +20,16 @@ int main(){
         }
         temp[i]=count;
     }
+    int max,min;
     for (int i=0;i<n;i++){
-        int max,min;
         max=min=temp[0];
         if (temp[i]!=0){
             if (max<temp[i]){
                 max=temp[i];
+                min=arr[i];
             }
         }
     }
-    printf("%d",max);
+    printf("%d",min);
 
 }
