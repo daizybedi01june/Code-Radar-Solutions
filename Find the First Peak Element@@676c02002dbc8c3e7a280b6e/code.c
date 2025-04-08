@@ -7,7 +7,7 @@ void firstPeakElement(int n,int arr[]){
             return;
         }
     }
-    printf(-1);
+    printf("-1\n");
 }
 
 int main(){
