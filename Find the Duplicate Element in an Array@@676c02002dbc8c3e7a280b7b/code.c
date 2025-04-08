@@ -22,7 +22,7 @@ int main(){
         temp[i]=count;
     }
     for (int i=0;i<n;i++){
-        if (temp[i]!=0 && temp[i]>0){
+        if (temp[i]!=0 && temp[i]>1){
             printf("%d",arr[i]);
         }
     }
