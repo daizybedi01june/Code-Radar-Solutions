@@ -28,5 +28,9 @@ int main(){
             num2=arr[i+1];
         }
     }
+    if (num1==0 && num2==0){
+        printf("-1");
+        return 0;
+    }
     printf("%d %d",num1,num2);
 }
