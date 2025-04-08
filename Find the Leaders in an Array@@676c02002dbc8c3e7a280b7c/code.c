@@ -14,5 +14,5 @@ int main(){
             printf("%d",max_from_right);
         }
     }
-    print("%d",arr[n-1]);
+    printf("%d",arr[n-1]);
 }
