@@ -12,7 +12,6 @@ int main(){
     for (int i=0;i<n;i++){
         if (k=arr[i]){
             printf("%d",i);
-            return 0;
         }
     }
     printf("-1\n");
