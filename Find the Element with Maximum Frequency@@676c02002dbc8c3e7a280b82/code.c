@@ -19,7 +19,7 @@ int main(){
                 temp[j]=0;
             }
         }
-        temp[i]=1;
+        temp[i]=count;
     }
     int max,element;
     max=temp[0];
