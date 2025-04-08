@@ -7,9 +7,11 @@ int main(){
     int arr1[n];
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        scanf("%d",&arr1[i]);
     }
-    
+    for (int i=0;i<n;i++){
+        arr1[i]=arr[i];
+    }
+
     for (int i=0;i<n-1;i++){
         for (int j=0;j<n-i-1;j++){
             if (arr[j]>arr[j+1]){
