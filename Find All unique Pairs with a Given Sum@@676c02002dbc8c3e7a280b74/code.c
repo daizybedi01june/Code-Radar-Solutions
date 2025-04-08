@@ -17,7 +17,7 @@ int main(){
             found=1;
         }
     }
+    }
     if (!found) {
         printf();
-    }
-}}
+    }}
