@@ -4,9 +4,12 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
+    int arr1[n];
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        scanf("%d",&arr1[i]);
     }
+    
     for (int i=0;i<n-1;i++){
         for (int j=0;j<n-i-1;j++){
             if (arr[j]>arr[j+1]){
@@ -16,8 +19,11 @@ int main(){
             }
         }
     }
-    for (int i=0;i<n;i++){
-        printf("%d",arr[i]);
+    if (arr[n]==arr1[n]){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
     }
 
 }
