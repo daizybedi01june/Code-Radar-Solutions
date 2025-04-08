@@ -12,9 +12,12 @@ int main(){
     scanf("%d",&t);
     for (int i=0;i<n-1;i++){
         for (int j=i+1;j<n;j++){
-            if (arr[i]+arr[j]==t)
+            if (arr[i]+arr[j]==t && arr[i]!=arr[j])
             printf("%d %d\n",arr[i],arr[j]);
-            found=1;
+            else{
+                printf("%d %d\n",arr[i],arr[j]);
+                return 0;
+            }
         }
     }
 }
