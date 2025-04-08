@@ -17,6 +17,6 @@ int main(){
         }
     }
     for (int i=0;i<n;i++){
-        printf("%d",arr[1]);
+        printf("%d",arr[n-2]);
     }
 }
