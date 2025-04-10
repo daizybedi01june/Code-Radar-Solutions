@@ -10,12 +10,12 @@ int main(){
     int count=0;
     int counts=0;
     int elements[n];
-    for (int j=0;j<=i;i++){
+    for (int j=0;j<n;i++){
         count+=arr[j];
         elements[counts++]=count;
     }
     
     for (int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
