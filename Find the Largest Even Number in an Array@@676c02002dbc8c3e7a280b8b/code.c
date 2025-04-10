@@ -23,5 +23,9 @@ int main(){
             }
         }
     }
-    printf("%d",elements[count-1]);
+    if (count>0){
+    printf("%d",elements[count-1]);}
+    else{
+        printf("-1")
+    }
 }
