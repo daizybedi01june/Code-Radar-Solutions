@@ -10,7 +10,7 @@ int main(){
     int count=0;
     int counts=0;
     int elements[n];
-    for (int j=0;j<n;i++){
+    for (int j=0;j<n;j++){
         count+=arr[j];
         elements[counts++]=count;
     }
