@@ -11,7 +11,7 @@ int main(){
     int counts=0;
     int elements[n];
     for (int i=0;i<n;i++){
-        for (int j=0;j<=i;i++){
+        for (int j=0;j<=i;j++){
             count+=arr[j];
             elements[counts++]=count;
         }
