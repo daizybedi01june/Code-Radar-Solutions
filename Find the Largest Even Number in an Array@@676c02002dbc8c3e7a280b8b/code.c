@@ -26,6 +26,6 @@ int main(){
     if (count>0){
     printf("%d",elements[count-1]);}
     else{
-        printf("-1")
+        printf("-1");
     }
 }
