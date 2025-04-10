@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int sum=0;
-    for (int=0;i<n;i++){
+    for (int i=0;i<n;i++){
         sum+=arr[i];
     }
     int result=(sum/n);
